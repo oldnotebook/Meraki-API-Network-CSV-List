@@ -109,8 +109,6 @@ if file_open == "false": # if the file is open, then the program won't go throug
 				word_list[1]=word_list[1].replace('"', "") # remove double quotes
 				disable_remote_status_page = word_list[1] # set the variable.
 				#print("disableRemoteStatusPage value: ", word_list[1])
-			
-			#hard code the headers/options/values?
 		
 		#print() # blank line for testing	
 		csv_line = id+","+organization_id+","+name+","+time_zone+","+tags+","+type+","+config_template_id+","+disable_my_meraki_com+","+disable_remote_status_page+"\n" # create the line with updated variables.  Start a new line at the end of the line.
