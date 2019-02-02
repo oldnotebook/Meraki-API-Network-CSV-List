@@ -1,0 +1,5 @@
+id,organizationId,name,timeZone,tags,type,configTemplateId,disableMyMerakiCom,disableRemoteStatusPage
+N_000000000000000001,123456,Network Name1,America/New_York,NY,wireless,blank,FALSE,TRUE
+N_000000000000000002,123456,Network Name2,America/Los_Angeles,NY,appliance,blank,FALSE,TRUE
+L_000000000000000001,123456,Network Name3,US/Eastern,Remote,combined,L_000000000000000001,FALSE,TRUE
+L_000000000000000001,123456,Network Name4,US/Eastern,"Remote, NY",combined,L_000000000000000001,FALSE,TRUE
