@@ -10,8 +10,9 @@ This takes the curl output of the Meraki API network list and re-formats it to a
 - To see the specific entry on the curl command for the Network list; go to the API Docs link above > network > List the networks in an organization.
 
 # Example Curl Command:
-Here's an example of the curl command for a windows machine: (**Note: the double quotes for a windows box.  Use single quotes for a linux box.  Also fill out your org ID and API key.):
-      curl -L -H "X-Cisco-Meraki-API-Key: <your api key here>" -H "Content-Type: application/json" -X GET "https://api.meraki.com/api/v0/organizations/<your org id here>/networks"
+Here's an example of the curl command for a windows machine (Fill out your org ID and API key): 
+- curl -L -H "X-Cisco-Meraki-API-Key: <your api key here>" -H "Content-Type: application/json" -X GET "https://api.meraki.com/api/v0/organizations/<your org id here>/networks"
+- **Note: the double quotes for a windows box.  Use single quotes for a linux box.
   
 # To run this script on a windows box:
 1. Save the Network List curl output to a file named "Network list.txt" in the same directory as the script.  The output will be a single line.
